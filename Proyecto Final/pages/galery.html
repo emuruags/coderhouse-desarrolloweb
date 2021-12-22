@@ -7,6 +7,7 @@
 
     <!-- Google Font Begin-->
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,142 +24,198 @@
 
     <!-- Google Font End-->
 
-    <!-- Agregar el CSS -->
-    <link rel="stylesheet" href="../css/estilos.css">
 
-    <title>Fincas del Faldeo | Galería</title>
+    <!-- Agregar el CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- 
+    <link rel="stylesheet" href="../css/estilos.css">
+-->
+
+<link rel="stylesheet" href="../css//styles.css">
+
+    <title>Fincas del Faldeo</title>
 </head>
 <body>
 
-    <div class="galery-main-container">
-
-        <header class="header-section">
-            <div class="logo">
-              <a href="../index.html">
-                <img src="../img/logo.jpg" alt="Fincas del faldeo" />
-              </a>
-            </div>
-            <nav>
-              <ul>
-                <li class="menu-lista">
-                  <a class="menu-link" href="../index.html">Home</a>
-                </li>
-                <li class="menu-lista">
-                  <a class="menu-link" href="rooms.html">Las Fincas</a>
-                </li>
-                <li class="menu-lista">
-                  <a class="menu-link" href="galery.html">Postales</a>
-                </li>
-                <li class="menu-lista">
-                  <a class="menu-link" href="place.html">El Lugar</a>
-                </li>
-                <li class="menu-lista">
-                  <a class="menu-link" href="about-us.html">Nosotros</a>
-                </li>
-                <li class="menu-lista">
-                  <a class="menu-link" href="contact.html">Contacto</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="logo-ubicacion">
-              <img src="../img/placeholder.png" alt="Ubicación" />
-              <p>Ruta Prov. N° 5 KM 78.3, <br> Vila General Belgrano, <br>
-              Córdoba</p>
-            </div>
-        </header>
-    
-        <div class="galery-main-section"> 
-            <!-- Seccion de Menu con fotos -->
-            <!--
-            <section class="galery-images-section">
-                <img src="../img/galery/FincasdelFaldeo (0).jpg" alt="Foto0">
-            </section>
-            -->
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (0).jpg" alt="Foto0">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (1).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (2).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (3).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (4).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (5).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (6).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (8).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (9).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (10).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (11).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (12).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (13).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (14).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (15).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (16).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (17).jpg" alt="">
-            </div>
-            <div>
-                <img class="galery-img" src="../img/galery/FincasdelFaldeo (18).jpg" alt="">
-            </div>
+      <!------- HEADER BEGIND---------->
+      <nav class="navbar  navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/logo.jpg" alt="Fincas del faldeo" />
+            <h2 class="header-nav-logo-h2">Fincas del Faldeo</h2>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav menu-lista ">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./rooms.html">Las Fincas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./galery.html">Postales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./place.html">El Lugar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about-us.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand header-nav-logo" >
+            <img src="../img/placeholder.png" alt="Ubicación" /> <br> Ruta Prov. N° 5 KM 78.3, <br> Vila General Belgrano, <br>
+              Córdoba
+  
+          </a>
         </div>
-    
-        <footer class="footer-section">
-        <h3 class="titulo-footer">Fincas del Faldeo</h3>
-    
-        <div class="footer-section-info-panel">
-            <h4>Ubicación</h4>
+      </nav>
+      <!------- HEADER END---------->
+
+      <!------- MAIN BEGIND---------->
+      <main class="container">
+        <div class="row">
+          <br>
+        </div>
+  
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-8">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/galery/FincasdelFaldeo (0).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/galery/FincasdelFaldeo (1).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/galery/FincasdelFaldeo (2).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/galery/FincasdelFaldeo (3).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/galery/FincasdelFaldeo (4).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/galery/FincasdelFaldeo (5).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/galery/FincasdelFaldeo (6).jpg" class="d-block w-100" alt="...">
+                </div>
+
+                  <div class="carousel-item">
+                    <img src="../img/galery/FincasdelFaldeo (8).jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/galery/FincasdelFaldeo (9).jpg" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div>
+            <br>
+            <br>
+          </div>
+
+        </div>
+  
+      </main>
+      <!------- MAIN END---------->
+
+
+
+
+    <!------- FOOTER BEGIND---------->
+    <footer class="page-footer bottom-0 font-small bg-dark">
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5">
+
+        <!-- Grid row -->
+        <div class="row mt-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <br>
+            <br>
+            <h4 class="titulo-footer">Ubicación</h4>
             <br />
             <img src="../img/placeholder.png" alt="Ubicación" />
+            <br>
             <p class="texto-footer">
                 Ruta Prov. N° 5 KM 78.3,
                 <br />
                 Vila General Belgrano, Córdoba, Argentina
             </p>
-        </div>
-        <div class="footer-section-info-panel">
-            <h4>Recepción</h4>
+
+          </div>
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <br>
+            <br>
+            <h4 class="titulo-footer">Recepción</h4>
             <br />
             <i class="lnr lnr-phone-handset"></i>
             <img src="../img/phone.png" alt="Teléfono" />
+            <br>
             <p class="texto-footer">+54 (11) 4444 - 5555</p>
-        </div>
-        <div class="footer-section-info-panel">
-            <h4>Encargado</h4>
+
+          </div>
+
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <br>
+            <br>
+            <h4 class="titulo-footer">Encargado</h4>
             <br />
             <img src="../img/phone.png" alt="Teléfono" />
+            <br>
             <p class="texto-footer">+54 (11) 4444 - 6666</p>
-        </div>
-        </footer>
-    
-    </div>
 
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Footer Links -->
+
+
+    </footer>
+    <!------- FOOTER END---------->
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+ 
 </body>
+
 </html>
