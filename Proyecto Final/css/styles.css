@@ -89,3 +89,35 @@
 	line-height: 32px;
 
 }
+
+/* Animaciones */
+.logo:hover {
+    animation-duration: 3s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+ }
+
+.logo-ubicacion:hover {
+
+     animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+ 
+ 
+ }
+ .titulo-animado:hover {
+
+    animation-duration: 4s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+
+}
+
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
