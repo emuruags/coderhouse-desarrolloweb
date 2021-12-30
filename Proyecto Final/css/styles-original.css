@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lista{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+}
+
+.header-nav-long{
+    width: 100%;
+}
+
+.header-nav-logo{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 15px;
+}
+.header-nav-logo-h2{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 17px;
+}
+
+.place-description{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+	color: black;
+	line-height: 32px;
+    text-align: justify;
+
+}
+
+.titulo-footer{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;   
+    color: white;
+    
+}
+.texto-footer{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.titulo-imagen{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.rooms-section-desc{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 16px;
+	color: black;
+	line-height: 32px;
+
+}
+
+.rooms-section-tit{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+	color: black;
+	line-height: 32px;
+
+}
+
+.contact-map-section iframe{
+    width: 450px;
+    height: 400px;
+}
+
+.titulo-about-us{
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 56px;
+	color: black;
+	/*margin-bottom: 26px;*/
+    
+}
+
+.about-us-description-col p {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+	color: black;
+	line-height: 32px;
+
+}
+
+/* Animaciones */
+.logo:hover {
+    animation-duration: 3s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+ }
+
+.logo-ubicacion:hover {
+
+     animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+ 
+ 
+ }
+ .titulo-animado:hover {
+
+    animation-duration: 4s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+
+}
+
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }

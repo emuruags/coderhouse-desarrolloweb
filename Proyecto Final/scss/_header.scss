@@ -1,0 +1,39 @@
+/* Variables */
+$title-font-logo:'Julius Sans One', sans-serif;
+$title-font-nav: 'Zen Kurenaido', sans-serif;
+$title-font-nav-logo: 'Zen Kurenaido', sans-serif;
+$color-black: black;
+
+
+header{
+    background-color: $color-black;
+    nav{
+        a{
+            img{
+                border-radius: 10px;
+            }
+            .header-nav-logo-h2{
+                //font-family: 'Julius Sans One', sans-serif;
+                font-size: 17px;
+                font-family: $title-font-logo;
+            }
+
+        }
+        div{
+            ul{
+                //font-family: 'Zen Kurenaido', sans-serif;
+                font-size: 20px;
+                font-family: $title-font-nav;
+            }
+        }
+        .header-nav-logo{
+            //font-family: 'Zen Kurenaido', sans-serif;
+            font-size: 15px;
+            font-family: $title-font-nav-logo;
+            img{
+                border-radius: 10px;
+            }
+        }
+    }
+
+}
