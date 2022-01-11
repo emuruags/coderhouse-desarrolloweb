@@ -1,37 +1,38 @@
 /* Variables */
 $title-font-logo:'Julius Sans One', sans-serif;
-$title-font-nav: 'Zen Kurenaido', sans-serif;
-$title-font-nav-logo: 'Zen Kurenaido', sans-serif;
+$title-font: 'Zen Kurenaido', sans-serif;
 $color-black: black;
 
+@mixin font-family-and-size ($font-family, $font-size) {
+    font-family: $font-family;
+    font-size: $font-size;
+}
+
+@mixin border-radius {
+    border-radius: 10px;
+}
 
 header{
     background-color: $color-black;
     nav{
         a{
             img{
-                border-radius: 10px;
+                @include border-radius;
             }
             .header-nav-logo-h2{
-                //font-family: 'Julius Sans One', sans-serif;
-                font-size: 17px;
-                font-family: $title-font-logo;
+                @include font-family-and-size($title-font-logo, 17px);
             }
 
         }
         div{
             ul{
-                //font-family: 'Zen Kurenaido', sans-serif;
-                font-size: 20px;
-                font-family: $title-font-nav;
+                @include font-family-and-size($title-font, 20px);
             }
         }
         .header-nav-logo{
-            //font-family: 'Zen Kurenaido', sans-serif;
-            font-size: 15px;
-            font-family: $title-font-nav-logo;
+            @include font-family-and-size($title-font, 15px);
             img{
-                border-radius: 10px;
+                @include border-radius;
             }
         }
     }

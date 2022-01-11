@@ -1,0 +1,30 @@
+/* Animaciones */
+
+@mixin animations {
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+}
+
+
+.logo:hover {
+    animation-duration: 3s;
+    @include animations;
+}
+
+.logo-ubicacion:hover {
+     animation-duration: 2s;
+     @include animations;
+}
+ .titulo-animado:hover {
+    animation-duration: 4s;
+    @include animations;
+}
+
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }

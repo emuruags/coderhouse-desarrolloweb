@@ -1,0 +1,65 @@
+
+$estilo: (
+    color-black: black,
+    line-height: 32px,
+    );
+
+@mixin map-section-iframe ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+main{
+
+
+    /*-------------- Index ------------------------*/
+    .card-title{
+        color:  map-get($estilo, color-black);
+        line-height: 35px;
+    }
+
+
+    /*-------------- Rooms ------------------------*/
+    .rooms-section-tit{
+        font-weight: bold;
+        color:  map-get($estilo, color-black);
+        line-height: map-get($estilo, line-height );
+    
+    }
+    .rooms-section-desc{
+        color:  map-get($estilo, color-black);
+        line-height: map-get($estilo, line-height );
+    }
+
+    /*-------------- About Us ---------------------*/
+    
+    .titulo-about-us{
+        text-align: center;
+        font-weight: 500;
+        line-height: 56px;
+        color:  map-get($estilo, color-black);
+    }
+
+
+    .about-us-description-col{
+        //color: black;
+        line-height: map-get($estilo, line-height );
+        color:  map-get($estilo, color-black);
+    }
+
+
+    /*------------------- Place ---------------*/
+    .place-description{
+        color:  map-get($estilo, color-black);
+        line-height: map-get($estilo, line-height );
+        text-align: justify;
+    }
+
+    /*------------------ Contact ----------------*/
+    .contact-map-section iframe{
+        @include map-section-iframe(450px, 400px);
+    }
+
+
+
+}

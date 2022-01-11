@@ -8,24 +8,106 @@ header {
   header nav a img {
     border-radius: 10px; }
   header nav a .header-nav-logo-h2 {
-    font-size: 17px;
-    font-family: "Julius Sans One", sans-serif; }
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 17px; }
   header nav div ul {
-    font-size: 20px;
-    font-family: "Zen Kurenaido", sans-serif; }
+    font-family: "Zen Kurenaido", sans-serif;
+    font-size: 20px; }
   header nav .header-nav-logo {
-    font-size: 15px;
-    font-family: "Zen Kurenaido", sans-serif; }
+    font-family: "Zen Kurenaido", sans-serif;
+    font-size: 15px; }
     header nav .header-nav-logo img {
       border-radius: 10px; }
 
+main {
+  /*-------------- Index ------------------------*/
+  /*-------------- Rooms ------------------------*/
+  /*-------------- About Us ---------------------*/
+  /*------------------- Place ---------------*/
+  /*------------------ Contact ----------------*/ }
+  main .card-title {
+    color: black;
+    line-height: 35px; }
+  main .rooms-section-tit {
+    font-weight: bold;
+    color: black;
+    line-height: 32px; }
+  main .rooms-section-desc {
+    color: black;
+    line-height: 32px; }
+  main .titulo-about-us {
+    text-align: center;
+    font-weight: 500;
+    line-height: 56px;
+    color: black; }
+  main .about-us-description-col {
+    line-height: 32px;
+    color: black; }
+  main .place-description {
+    color: black;
+    line-height: 32px;
+    text-align: justify; }
+  main .contact-map-section iframe {
+    width: 450px;
+    height: 400px; }
+
 footer div div h4 {
   font-family: "Julius Sans One", sans-serif;
-  font-size: 12px;
-  color: white; }
+  color: white;
+  font-size: 12px; }
 
 footer div div p {
   font-family: "Julius Sans One", sans-serif;
-  font-size: 13px;
   color: white;
+  font-size: 13px;
   margin-bottom: 25px; }
+
+/* Animaciones */
+.logo:hover {
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+.logo-ubicacion:hover {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+.titulo-animado:hover {
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* Mapa de Fonts Sizes*/
+/* Mapa de Fonts*/
+/* Uso del Map Fonts*/
+.font-zen-kurenaido {
+  font-family: "Zen Kurenaido", sans-serif; }
+
+.font-julius-sans-one {
+  font-family: "Julius Sans One", sans-serif; }
+
+/* Uso del Map Fonts Sizes*/
+.size-15 {
+  font-size: 15px; }
+
+.size-16 {
+  font-size: 16px; }
+
+.size-20 {
+  font-size: 20px; }
+
+.size-21 {
+  font-size: 21px; }
+
+.size-35 {
+  font-size: 35px; }
+
+.size-48 {
+  font-size: 48px; }

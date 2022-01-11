@@ -1,6 +1,47 @@
 @import "body";
 @import "header";
+@import "main";
 @import "footer";
+@import "animations";
 
+
+/* Mapa de Fonts Sizes*/
+$fontSizes: (
+  "size-15": 15px,  
+  "size-16": 16px,
+  "size-20": 20px,
+  "size-21": 21px,
+  "size-35": 35px,
+  "size-48": 48px,
+
+);
+
+/* Mapa de Fonts*/
+$fonts: (
+  "font-zen-kurenaido": (
+    "Zen Kurenaido",
+    sans-serif,
+  ),
+  "font-julius-sans-one": (
+    "Julius Sans One",
+    sans-serif,
+  ),
+  
+);
+
+
+/* Uso del Map Fonts*/
+@each $name, $font in $fonts {
+    .#{$name} {
+      font-family: $font;
+    }
+  }
+
+/* Uso del Map Fonts Sizes*/
+@each $name, $size in $fontSizes {
+.#{$name} {
+    font-size: $size;
+}
+}
 
 
