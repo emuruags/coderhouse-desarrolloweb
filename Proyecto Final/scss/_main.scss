@@ -42,7 +42,6 @@ main{
 
 
     .about-us-description-col{
-        //color: black;
         line-height: map-get($estilo, line-height );
         color:  map-get($estilo, color-black);
     }
