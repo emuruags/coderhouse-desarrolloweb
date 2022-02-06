@@ -3,6 +3,7 @@
 @import "main";
 @import "footer";
 @import "animations";
+@import "media-query";
 
 
 /* Mapa de Fonts Sizes*/
@@ -11,10 +12,12 @@ $fontSizes: (
   "size-16": 16px,
   "size-20": 20px,
   "size-21": 21px,
+  "size-25": 25px,
   "size-35": 35px,
   "size-48": 48px,
-
+  
 );
+
 
 /* Mapa de Fonts*/
 $fonts: (
@@ -28,7 +31,7 @@ $fonts: (
   ),
   
 );
-
+ 
 
 /* Uso del Map Fonts*/
 @each $name, $font in $fonts {
@@ -44,4 +47,11 @@ $fonts: (
 }
 }
 
+.page-footer img{
+  margin-top: 1px;
+}
 
+.about-us-description-col{
+  margin-top: 50px;
+  padding-bottom: 90px; 
+}
